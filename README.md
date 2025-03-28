@@ -1,2 +1,2 @@
 # Game-Store
-Blazor application for managing a simple game catalog
+Application for managing a simple game catalog
