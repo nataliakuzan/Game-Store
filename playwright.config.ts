@@ -72,11 +72,12 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
    webServer: {
+    command: 'dotnet run --project GameStore.Client',
+    url: 'http://localhost:5258',
+    reuseExistingServer: !process.env.CI,
      //command: 'npm run start',
-     command: 'yarn dev',
-     url: 'http://localhost:5258/',
-     timeout: 120000,
-     reuseExistingServer: true,
+     //url: 'http://localhost:5258',
+     //timeout: 120000,
      //reuseExistingServer: !process.env.CI,
    },
 });
