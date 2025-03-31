@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Application for managing a simple game catalog",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "dotnet run --project GameStore.Client"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
